@@ -17,7 +17,7 @@ A lightweight, secure, and modern Sign-In / Log-In application built using Java 
 
 ```text
 JavaApplication/
-├── mysql-connector-j-9.x.x.jar     # JDBC Database: Download the file if you don't have it; Driver binary
+├── mysql-connector-j-8.0.33.jar     # JDBC Database: Download the file if you don't have it; Driver binary
 ├── README.md                       # Documentation guide file
 ├── server/
 │   └── DatabaseHelper.java          # Relational CRUD handling operations
@@ -52,7 +52,7 @@ Open your system terminal, target the root folder, and execute the following seq
 
 ```bash
 # Step 1: Navigate to the core application folder root
-cd "e:/projects/JavaPrograms/class_project/application"
+cd "/your_folder"
 
 # Step 2: Compile the backend helper and frontend component files simultaneously
 javac -cp ".;mysql-connector-j-9.x.x.jar" server/DatabaseHelper.java ui/src/loginPage.java
